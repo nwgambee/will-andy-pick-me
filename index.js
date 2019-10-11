@@ -33,3 +33,8 @@ document.querySelector('#get-answer-btn').addEventListener("click", function() {
       randomQPlaceholder.innerHTML = randomPrompt[Math.floor(Math.random() * randomPrompt.length)];
 
 });
+
+document.querySelector('#clear').addEventListener("click", function () {
+  var form = document.querySelector(".myForm");
+  form.reset();
+})

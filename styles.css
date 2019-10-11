@@ -68,6 +68,10 @@ align-self: center;
 margin-top: 100px;
 }
 
+.response {
+  text-align: center;
+}
+
 #clear {
   height: 50px;
   background-color: #D0CDCD;
@@ -75,6 +79,10 @@ margin-top: 100px;
   align-self: flex-end;
   justify-content: flex-end;
   color: white;
+}
+
+#clear:hover {
+  background-color: #DE4841;
 }
 
 #woody {

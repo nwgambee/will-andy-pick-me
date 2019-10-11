@@ -7,15 +7,20 @@
     <title>Will Andy Pick Me?</title>
   </head>
   <body>
-<h1>Will Andy pick me?</h1>
+<h1 id="h1" >Will Andy pick me?</h1>
 <section class="main">
 <section class='ask-question'>
   <form class="" action="index.html" method="post">
-    <input type="text" placeholder="Ask your question here!">
+    <input id="input-q" type="text" placeholder="Ask your question here!">
     <button id="get-answer-btn" type="button" name="button">Get your answer</button>
   </form>
-
+        <section class="response hidden">
+          <h4 id="user-q" >value</h4>
+          <h4 id="random-q-place">response</h4>
+        </section>
+        <div id="eight-ball">
       <img id="eight-ball" src="./assets/eight-ball.png" alt="a magic 8 ball">
+    </div>
     <button id="clear" type="button" name="button">Clear</button>
 
 
@@ -25,4 +30,6 @@
 </div>
 </section>
   </body>
+  <script type="" src="index.js">
+  </script>
 </html>

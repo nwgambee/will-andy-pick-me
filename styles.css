@@ -80,3 +80,7 @@ margin-top: 100px;
 #woody {
 margin-left: 50px;
 }
+
+.hidden {
+  display: none;
+}
